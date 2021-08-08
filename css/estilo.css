@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: blanchedalmond;
+}
+header,.main, footer {
+    
+    width: 90%;
+    margin:20px auto;
+    max-width: 1000px;
+}
+header nav{
+    background-color: lightsalmon;
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:hover{
+    background-color: blanchedalmond;
+}
+.main .articles article{
+    padding: 20px;
+    background-color: cornflowerblue;
+    margin-bottom: 20px;
+}
+.main .articles{
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+    background-color: brown;
+}
+aside{
+    width: 30%;
+    background-color: chartreuse;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer{
+    background-color: crimson;
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+}
